@@ -51,7 +51,7 @@ async def go_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # اجرای ربات
 async def main():
-    TOKEN = "7659733690:AAFqmjsngQPqIUg72Bmm8iH5OO6F6s6NMSc"
+    TOKEN = "7518724231:AAFYFJfS15QoG7RCslSywqRHOLCRXaAm534"
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
